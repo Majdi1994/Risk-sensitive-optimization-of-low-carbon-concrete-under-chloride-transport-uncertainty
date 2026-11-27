@@ -23,6 +23,10 @@ Missing compressive strengths for fly-ash and/or slag mixtures were filled with 
 
 The 24-source companion diagnostic that removes the dominant source **before** retraining is `code/loso_exclude_dominant.py` → `outputs/rev2_loso24_*` (pooled R² ≈ 0.220).
 
+
+## Notebooks
+
+`notebooks/Final_project_notebook_majdi.ipynb` is the course notebook used to develop the UCI Age-28 compressive-strength fill workflow. It reads `data/Compressive_Strength.xlsx` (n = 1030; identical records to the original `Concrete_Data.xlsx`). The deposited entry point remains `code/run_paper.py` / `code/uci_age28_strength.py`.
 ## Run
 
 ```bash

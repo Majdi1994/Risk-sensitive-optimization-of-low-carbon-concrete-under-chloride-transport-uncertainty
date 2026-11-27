@@ -1,4 +1,4 @@
-﻿ASTM C1556 modelling corpus deposit
+ASTM C1556 modelling corpus deposit
 =================================
 
 Primary file: ASTM_C1556_n540.csv (n = 540 records from 25 sources).
