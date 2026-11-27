@@ -1,0 +1,26 @@
+{
+  "sigma_raw": {
+    "spearman_rho": -0.05758346374850728,
+    "spearman_p": 0.18150782486697112,
+    "pearson_r": 0.04514364807897766,
+    "pearson_p": 0.2950319885459211
+  },
+  "sigma_calibrated": {
+    "spearman_rho": -0.008395424461710228,
+    "spearman_p": 0.8456721390802653,
+    "pearson_r": 0.11526042205635702,
+    "pearson_p": 0.007337084867848583
+  },
+  "sigma_raw_x_scale": {
+    "spearman_rho": -0.008395424461710228,
+    "spearman_p": 0.8456721390802653,
+    "pearson_r": 0.11526042205635698,
+    "pearson_p": 0.007337084867848743
+  },
+  "fold_mean_sigma_calibrated_vs_mean_abs_error": {
+    "spearman_rho": 0.14615384615384616,
+    "spearman_p": 0.4857313808455339,
+    "n_folds": 25
+  },
+  "diagnostic_summary": "Across the 540 held-out predictions, the Spearman correlation between calibrated σ and absolute error was −0.008 (p = 0.846). Across the 25 source means, it was 0.146 (p = 0.486)."
+}

@@ -1,0 +1,49 @@
+{
+  "mc_draws": 2000,
+  "cover_m": 0.05,
+  "n_seeds": 30,
+  "production": {
+    "lambda": 4.3007,
+    "mean_pool_mean": 1.6514190055945603,
+    "q10_pool_mean": 0.7328867152273533,
+    "relative_mean_change": -0.5562078959098016,
+    "materially_reduces": true,
+    "paired_bootstrap_mean_delta_95ci": [
+      -1.1205365646288168,
+      -0.7185585992518776
+    ]
+  },
+  "constant_sigma": {
+    "lambda": 4.3007,
+    "constant_sigma_value": 0.10356134698411765,
+    "mean_pool_mean": 1.4371215807517321,
+    "q10_pool_mean": 0.8813692020745539,
+    "relative_mean_change": -0.38671215165141043,
+    "materially_reduces": true,
+    "paired_bootstrap_mean_delta_95ci": [
+      -0.7906094874743888,
+      -0.32007562015724694
+    ]
+  },
+  "spearman_sigma_vs_abs_error": {
+    "fold_local_calibrated_sigma": {
+      "spearman_rho": -0.008395424461710228,
+      "p": 0.8456721390802653
+    },
+    "raw_or_production_proportional_sigma": {
+      "spearman_rho": -0.05758346374850728,
+      "p": 0.18150782486697112,
+      "note": "ranks equal under global production \u03bb"
+    },
+    "production_lambda_times_raw": {
+      "spearman_rho": -0.05758346374850728,
+      "p": 0.18150782486697112
+    },
+    "n": 540
+  },
+  "interpretation": {
+    "production_relative_change": -0.5562078959098016,
+    "constant_sigma_relative_change": -0.38671215165141043,
+    "q10_advantage_survives_constant_sigma": true
+  }
+}

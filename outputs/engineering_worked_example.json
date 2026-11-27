@@ -1,0 +1,38 @@
+{
+  "seed": 42,
+  "matching_rule": "min_abs_delta_gwp_across_all_80x80_mean_x_q10_pairs_at_seed; selected mean_candidate_id=372, q10_candidate_id=457",
+  "n_pairs_compared": 6400,
+  "abs_delta_gwp": 0.0007810967252339651,
+  "mean_arm_near_equal_gwp": {
+    "candidate_id": 372,
+    "local_id": 52,
+    "gwp": 292.8837802879969,
+    "t_eq_mean_y": 77.14653360489076,
+    "t_eq_q10_y": 25.80577882038584,
+    "Bproxy_gwp_over_mean_teq": 3.79646066520647,
+    "w_b": 0.4446566124515448,
+    "binder": 394.5641335505516,
+    "OPC": 310.3757357275944,
+    "FA": 7.100837435566325,
+    "GGBFS": 10.880625755647854,
+    "SF": 18.433393772247296,
+    "MK": 47.77354085949579
+  },
+  "q10_arm_near_equal_gwp": {
+    "candidate_id": 457,
+    "local_id": 57,
+    "gwp": 292.88456138472213,
+    "t_eq_mean_y": 81.05948698292278,
+    "t_eq_q10_y": 27.580173698504844,
+    "Bproxy_gwp_over_mean_teq": 3.6132052186121735,
+    "w_b": 0.4499398490589972,
+    "binder": 394.3497198449601,
+    "OPC": 306.7558574240694,
+    "FA": 0.0528244587627297,
+    "GGBFS": 13.18094216380216,
+    "SF": 23.729103855242453,
+    "MK": 50.63099194308336
+  },
+  "delta_gwp_q10_minus_mean": 0.0007810967252339651,
+  "plain_language": "At matched seed 42, the near-equal-GWP pair selected by minimizing |\u0394GWP| over 6400 mean\u00d7q10 pairs is mean candidate_id=372 vs q10 candidate_id=457 (|\u0394GWP|=0.000781 kg CO2-eq/m3). Mean-search mean teq=77.1 y (q10 teq=25.8 y); embedded-search mean teq=81.1 y (q10 teq=27.6 y) under the same 50 mm / 100 y screening shell."
+}
